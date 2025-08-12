@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: 'My Awesome Project'
-  text: 'A VitePress Site'
-  tagline: My great project tagline
+  name: 'Flexoki'
+  text: 'A VitePress Theme'
+  tagline: An inky color scheme for prose and code
   actions:
     - theme: brand
       text: Markdown Examples
