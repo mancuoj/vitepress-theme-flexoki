@@ -1,5 +1,3 @@
-/* https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css */
-/* https://stephango.com/flexoki */
 :root {
   --flexoki-paper: #fffcf0;
   --flexoki-base-50: #f2f0e5;
@@ -151,22 +149,6 @@
   --vp-c-black: var(--flexoki-black);
 }
 
-/**
- * - `bg`: The bg color used for main screen.
- * - `bg-alt`: The alternative bg color used in places such as "sidebar", or "code block".
- * - `bg-elv`: The elevated bg color. This is used at parts where it "floats", such as "dialog".
- * - `bg-soft`: The bg color to slightly distinguish some components from the page.
- *   Used for things like "carbon ads" or "table".
- * - `text-1`: Used for primary text.
- * - `text-2`: Used for muted texts, such as "inactive menu" or "info texts".
- * - `text-3`: Used for subtle texts, such as "placeholders" or "caret icon".
- * - `divider`: This is used for separators. This is used to divide sections
- *   within the same components, such as having separator on "h2" heading.
- * - `border`: This is designed for borders on interactive components.
- *   For example this should be used for a button outline.
- * - `gutter`: This is used to divide components in the page. For example
- *   the header and the lest of the page.
- * -------------------------------------------------------------------------- */
 :root {
   --vp-c-bg: var(--flexoki-paper);
   --vp-c-bg-alt: var(--flexoki-base-50);
@@ -193,22 +175,11 @@
   --vp-c-gutter: var(--flexoki-base-900);
 }
 
-/**
- * - `XXX-1`: The most solid color used mainly for colored text. It must
- *   satisfy the contrast ratio against when used on top of `XXX-soft`.
- * - `XXX-2`: The color used mainly for hover state of the button.
- * - `XXX-3`: The color for solid background, such as bg color of the button.
- *    It must satisfy the contrast ratio with pure white (#ffffff) text on
- *    top of it.
- * - `XXX-soft`: The color used for subtle background such as custom container
- *    or badges. It must satisfy the contrast ratio when putting `XXX-1` colors
- *    on top of it.
- * -------------------------------------------------------------------------- */
  :root {
   --vp-c-brand-1: var(--flexoki-cyan-600);
   --vp-c-brand-2: var(--flexoki-cyan-500);
   --vp-c-brand-3: var(--flexoki-cyan-400);
-  /* --vp-c-brand-soft: var(--flexoki-cyan-500-soft); */
+  --vp-c-brand-soft: var(--flexoki-cyan-soft);
 
   --vp-c-gray-1: #dddde3;
   --vp-c-gray-2: #e4e4e9;
@@ -247,7 +218,7 @@
   --vp-c-brand-1: var(--flexoki-cyan-200);
   --vp-c-brand-2: var(--flexoki-cyan-300);
   --vp-c-brand-3: var(--flexoki-cyan-400);
-  /* --vp-c-brand-soft: var(--flexoki-cyan-500-soft); */
+  --vp-c-brand-soft: var(--flexoki-cyan-dark-soft);
 
   --vp-c-gray-1: #515c67;
   --vp-c-gray-2: #414853;
