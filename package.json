@@ -1,5 +1,4 @@
 {
-  "packageManager": "pnpm@10.14.0",
   "scripts": {
     "dev": "vitepress dev",
     "build": "vitepress build",
