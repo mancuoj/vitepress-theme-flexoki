@@ -186,9 +186,11 @@ Danger zone, do not proceed
 :::
 
 ::: details Click me to toggle the code
+
 ```js
 console.log('Hello, VitePress!')
 ```
+
 :::
 ````
 
@@ -199,9 +201,11 @@ Danger zone, do not proceed
 :::
 
 ::: details Click me to toggle the code
+
 ```js
 console.log('Hello, VitePress!')
 ```
+
 :::
 
 Also, you may set custom titles globally by adding the following content in site config, helpful if not writing in English:
@@ -216,9 +220,9 @@ export default defineConfig({
       warningLabel: '警告',
       dangerLabel: '危险',
       infoLabel: '信息',
-      detailsLabel: '详细信息'
-    }
-  }
+      detailsLabel: '详细信息',
+    },
+  },
   // ...
 })
 ```
@@ -231,18 +235,22 @@ You can add additional attributes to the custom containers. We use [markdown-it-
 
 ````md
 ::: details Click me to toggle the code {open}
+
 ```js
 console.log('Hello, VitePress!')
 ```
+
 :::
 ````
 
 **Output**
 
 ::: details Click me to toggle the code {open}
+
 ```js
 console.log('Hello, VitePress!')
 ```
+
 :::
 
 ### `raw`
@@ -271,7 +279,7 @@ Wraps in a `<div class="vp-raw">`
   import { postcssIsolateStyles } from 'vitepress'
 
   export default {
-    plugins: [postcssIsolateStyles()]
+    plugins: [postcssIsolateStyles()],
   }
   ```
 
@@ -279,7 +287,7 @@ Wraps in a `<div class="vp-raw">`
 
   ```js
   postcssIsolateStyles({
-    includeFiles: [/vp-doc\.css/] // defaults to /base\.css/
+    includeFiles: [/vp-doc\.css/], // defaults to /base\.css/
   })
   ```
 
@@ -348,16 +356,14 @@ export default {
 
 ```js
 export default {
-  name: 'MyComponent'
+  name: 'MyComponent',
   // ...
 }
 ```
 
 ```html
 <ul>
-  <li v-for="todo in todos" :key="todo.id">
-    {{ todo.text }}
-  </li>
+  <li v-for="todo in todos" :key="todo.id">{{ todo.text }}</li>
 </ul>
 ```
 
@@ -453,9 +459,9 @@ export default {
 export default {
   data() {
     return {
-      msg: 'Highlighted!' // [!code highlight]
+      msg: 'Highlighted!', // [!code highlight]
     }
-  }
+  },
 }
 ```
 
@@ -485,9 +491,9 @@ export default {
 export default {
   data() {
     return {
-      msg: 'Focused!' // [!code focus]
+      msg: 'Focused!', // [!code focus]
     }
-  }
+  },
 }
 ```
 
@@ -549,9 +555,9 @@ export default {
   data() {
     return {
       msg: 'Error', // [!code error]
-      msg: 'Warning' // [!code warning]
+      msg: 'Warning', // [!code warning]
     }
-  }
+  },
 }
 ```
 
@@ -562,8 +568,8 @@ You can enable line numbers for each code blocks via config:
 ```js
 export default {
   markdown: {
-    lineNumbers: true
-  }
+    lineNumbers: true,
+  },
 }
 ```
 
@@ -814,6 +820,7 @@ You can include the `My Base Section` section like this:
 
 ```md
 ## My Extended Section
+
 <!--@include: ./parts/basics.md#my-base-section-->
 ```
 
@@ -852,8 +859,8 @@ npm add -D markdown-it-mathjax3
 ```ts [.vitepress/config.ts]
 export default {
   markdown: {
-    math: true
-  }
+    math: true,
+  },
 }
 ```
 
@@ -894,9 +901,9 @@ export default {
   markdown: {
     image: {
       // image lazy loading is disabled by default
-      lazyLoading: true
-    }
-  }
+      lazyLoading: true,
+    },
+  },
 }
 ```
 
@@ -914,7 +921,7 @@ export default defineConfig({
     // options for markdown-it-anchor
     // https://github.com/valeriangalliat/markdown-it-anchor#usage
     anchor: {
-      permalink: markdownItAnchor.permalink.headerLink()
+      permalink: markdownItAnchor.permalink.headerLink(),
     },
 
     // options for @mdit-vue/plugin-toc
@@ -924,7 +931,7 @@ export default defineConfig({
     config: (md) => {
       // use more markdown-it plugins!
       md.use(markdownItFoo)
-    }
-  }
+    },
+  },
 })
 ```
