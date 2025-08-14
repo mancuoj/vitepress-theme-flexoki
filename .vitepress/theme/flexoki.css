@@ -6,8 +6,10 @@
   --flexoki-base-200: #cecdc3;
   --flexoki-base-300: #b7b5ac;
   --flexoki-base-400: #9f9d96;
+  --flexoki-base-soft: #9f9d9624;
   --flexoki-base-500: #878580;
   --flexoki-base-600: #6f6e69;
+  --flexoki-base-dark-soft: #6f6e6929;
   --flexoki-base-700: #575653;
   --flexoki-base-800: #403e3c;
   --flexoki-base-850: #343331;
@@ -175,16 +177,11 @@
   --vp-c-gutter: var(--flexoki-base-900);
 }
 
- :root {
-  --vp-c-brand-1: var(--flexoki-cyan-600);
-  --vp-c-brand-2: var(--flexoki-cyan-500);
-  --vp-c-brand-3: var(--flexoki-cyan-400);
-  --vp-c-brand-soft: var(--flexoki-cyan-soft);
-
-  --vp-c-gray-1: #dddde3;
-  --vp-c-gray-2: #e4e4e9;
-  --vp-c-gray-3: #ebebef;
-  --vp-c-gray-soft: rgba(142, 150, 170, 0.14);
+:root {
+  --vp-c-gray-1: var(--flexoki-base-150);
+  --vp-c-gray-2: var(--flexoki-base-100);
+  --vp-c-gray-3: var(--flexoki-base-50);
+  --vp-c-gray-soft: var(--flexoki-base-soft);
 
   --vp-c-indigo-1: var(--flexoki-blue-600);
   --vp-c-indigo-2: var(--flexoki-blue-500);
@@ -210,20 +207,13 @@
   --vp-c-red-2: var(--flexoki-red-500);
   --vp-c-red-3: var(--flexoki-red-400);
   --vp-c-red-soft: var(--flexoki-red-soft);
-
-  --vp-c-sponsor: var(--flexoki-magenta-500);
 }
 
 .dark {
-  --vp-c-brand-1: var(--flexoki-cyan-200);
-  --vp-c-brand-2: var(--flexoki-cyan-300);
-  --vp-c-brand-3: var(--flexoki-cyan-400);
-  --vp-c-brand-soft: var(--flexoki-cyan-dark-soft);
-
-  --vp-c-gray-1: #515c67;
-  --vp-c-gray-2: #414853;
-  --vp-c-gray-3: #32363f;
-  --vp-c-gray-soft: rgba(101, 117, 133, 0.16);
+  --vp-c-gray-1: var(--flexoki-base-700);
+  --vp-c-gray-2: var(--flexoki-base-800);
+  --vp-c-gray-3: var(--flexoki-base-850);
+  --vp-c-gray-soft: var(--flexoki-base-dark-soft);
 
   --vp-c-indigo-1: var(--flexoki-blue-200);
   --vp-c-indigo-2: var(--flexoki-blue-300);
@@ -249,4 +239,18 @@
   --vp-c-red-2: var(--flexoki-red-300);
   --vp-c-red-3: var(--flexoki-red-400);
   --vp-c-red-soft: var(--flexoki-red-dark-soft);
+}
+
+:root {
+  --vp-c-brand-1: var(--flexoki-cyan-600);
+  --vp-c-brand-2: var(--flexoki-cyan-500);
+  --vp-c-brand-3: var(--flexoki-cyan-400);
+  --vp-c-brand-soft: var(--flexoki-cyan-soft);
+}
+
+.dark {
+  --vp-c-brand-1: var(--flexoki-cyan-200);
+  --vp-c-brand-2: var(--flexoki-cyan-300);
+  --vp-c-brand-3: var(--flexoki-cyan-400);
+  --vp-c-brand-soft: var(--flexoki-cyan-dark-soft);
 }
