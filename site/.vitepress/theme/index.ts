@@ -1,4 +1,4 @@
 import DefaultTheme from 'vitepress/theme'
-import './flexoki.css'
+import 'vitepress-theme-flexoki/index.css'
 
 export default DefaultTheme
