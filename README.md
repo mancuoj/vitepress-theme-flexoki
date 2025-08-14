@@ -4,6 +4,21 @@
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![License][license-src]][license-href]
 
+## Usage
+
+1. `npm install vitepress-theme-flexoki`
+2. Then add the theme css to vitepress theme config file:
+
+```ts
+// .vitepress/theme/index.ts
+import DefaultTheme from 'vitepress/theme'
+import 'vitepress-theme-flexoki/index.css'
+
+export default DefaultTheme
+```
+
+Instead of installing the package, you can also manually place the [index.css](/index.css) file in your theme folder.
+
 ## Previews
 
 ![flexoki light](/public/light.png)
