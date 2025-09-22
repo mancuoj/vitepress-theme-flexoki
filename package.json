@@ -2,7 +2,7 @@
   "name": "vitepress-theme-flexoki",
   "type": "module",
   "version": "0.0.1",
-  "packageManager": "pnpm@10.16.1",
+  "packageManager": "pnpm@10.17.0",
   "description": "Flexoki theme for VitePress",
   "author": "mancuoj <mancuoj@gmail.com>",
   "license": "MIT",
