@@ -27,8 +27,8 @@
   },
   "devDependencies": {
     "@mancuoj/prettier-config": "^0.5.4",
-    "bumpp": "^10.3.2",
-    "prettier": "^3.7.4"
+    "bumpp": "^10.4.0",
+    "prettier": "^3.8.0"
   },
   "prettier": "@mancuoj/prettier-config"
 }
