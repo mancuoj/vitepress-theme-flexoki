@@ -2,7 +2,7 @@
   "name": "vitepress-theme-flexoki",
   "type": "module",
   "version": "0.0.1",
-  "packageManager": "pnpm@12.4.1",
+  "packageManager": "pnpm@12.5.1",
   "description": "Flexoki theme for VitePress",
   "author": "mancuoj <mancuoj@gmail.com>",
   "license": "MIT",
@@ -28,7 +28,7 @@
   "devDependencies": {
     "@mancuoj/prettier-config": "^0.5.4",
     "bumpp": "^12.3.0",
-    "prettier": "^3.9.6"
+    "prettier": "^3.9.8"
   },
   "prettier": "@mancuoj/prettier-config"
 }
