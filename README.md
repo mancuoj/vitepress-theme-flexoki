@@ -4,10 +4,20 @@
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![License][license-src]][license-href]
 
+A [Flexoki](https://stephango.com/flexoki)-inspired theme for [VitePress](https://github.com/vuejs/vitepress).
+
+> Requires VitePress 1.x.
+
 ## Usage
 
-1. `npm install vitepress-theme-flexoki`
-2. Then add the theme css to vitepress theme config file:
+1. Install the theme:
+
+```sh
+pnpm add -D vitepress-theme-flexoki
+# or: npm i -D vitepress-theme-flexoki
+```
+
+2. Import it in your theme config:
 
 ```ts
 // .vitepress/theme/index.ts
@@ -17,13 +27,22 @@ import 'vitepress-theme-flexoki/index.css'
 export default DefaultTheme
 ```
 
-Instead of installing the package, you can also manually place the [index.css](/index.css) file in your theme folder.
+<details>
+<summary>Manual install</summary>
+
+Copy [index.css](./index.css) into your theme folder and import it.
+
+</details>
 
 ## Previews
 
-![flexoki light](/public/light.png)
+![flexoki light](./public/light.png)
 
-![flexoki dark](/public/dark.png)
+![flexoki dark](./public/dark.png)
+
+## Credits
+
+- [Flexoki](https://stephango.com/flexoki) palette by [Steph Ango](https://stephango.com)
 
 ## License
 
