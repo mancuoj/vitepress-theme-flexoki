@@ -23,7 +23,7 @@
   ],
   "scripts": {
     "format": "prettier -w .",
-    "release": "bumpp && pnpm publish --access public"
+    "release": "bumpp"
   },
   "devDependencies": {
     "@mancuoj/prettier-config": "^0.5.4",
