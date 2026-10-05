@@ -31,3 +31,6 @@ jobs:
 
       - name: Build site
         run: pnpm -C site run build
+
+      - name: publint
+        run: pnpm dlx publint
