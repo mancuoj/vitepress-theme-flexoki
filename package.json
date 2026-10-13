@@ -25,7 +25,7 @@
     "release": "bumpp"
   },
   "devDependencies": {
-    "@mancuoj/prettier-config": "^0.5.4",
+    "@mancuoj/prettier-config": "^0.6.0",
     "bumpp": "^12.3.0",
     "prettier": "^3.9.9"
   },
