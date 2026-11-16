@@ -168,13 +168,13 @@ importers:
     devDependencies:
       '@mancuoj/prettier-config':
         specifier: ^0.6.0
-        version: 0.6.0(prettier@3.9.10)
+        version: 0.6.0(prettier@3.10.1)
       bumpp:
         specifier: ^12.3.0
         version: 12.3.0
       prettier:
         specifier: ^3.9.9
-        version: 3.9.10
+        version: 3.10.1
 
   site:
     devDependencies:
@@ -1069,8 +1069,8 @@ packages:
   preact@10.27.0:
     resolution: {integrity: sha512-/DTYoB6mwwgPytiqQTh/7SFRL98ZdiD8Sk8zIUVOxtwq4oWcwrcd1uno9fE/zZmUaUrFNYzbH14CPebOz9tZQw==}
 
-  prettier@3.9.10:
-    resolution: {integrity: sha512-skGHTH1Yb9QvaTC4hWnRTzEYtCpApF0UMBPz+t/0ZPzP8ihefo/btKd+QA7pUE0fEwA1SbS/NmhyEcstdXOIdA==}
+  prettier@3.10.1:
+    resolution: {integrity: sha512-70vp3ZUYoPlFbF9uiTdXHUUCGEIp7d4+6p+8DYbkm2jP7x/3i/paXVF6dopSI3zd/CEitrZN1rc4i85xWmmXlg==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -1487,13 +1487,13 @@ snapshots:
 
   '@jridgewell/sourcemap-codec@1.5.5': {}
 
-  '@mancuoj/prettier-config@0.6.0(prettier@3.9.10)':
+  '@mancuoj/prettier-config@0.6.0(prettier@3.10.1)':
     dependencies:
       '@antfu/install-pkg': 2.1.0
       '@prettier/plugin-oxc': 0.2.3
       local-pkg: 1.2.1
       picocolors: 1.1.1
-      prettier: 3.9.10
+      prettier: 3.10.1
 
   '@napi-rs/wasm-runtime@1.2.5(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1)':
     dependencies:
@@ -2061,7 +2061,7 @@ snapshots:
 
   preact@10.27.0: {}
 
-  prettier@3.9.10: {}
+  prettier@3.10.1: {}
 
   property-information@7.1.0: {}
 
